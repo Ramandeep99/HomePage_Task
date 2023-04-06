@@ -90,14 +90,16 @@ img {
     align-items: center;
     justify-content: center;
     background-color: white;
-    transform: translateX(50px);
+    transform: translateX(35px);
     text-align: center;
     background-color: rgb(255, 251, 244);
 }
 
+
+/* 
 .icon span {
     font-size: 30px;
-}
+} */
 
 
 /*  */
