@@ -79,7 +79,7 @@ img {
 .text:hover,
 .itemn:hover {
     background-color: rgba(0, 115, 255, 0.534);
-    box-shadow: 2px 2px 2px 2px rgb(251, 237, 237);
+    box-shadow: 2px 2px 2px 2px rgb(237, 241, 251);
 }
 
 .text p {
