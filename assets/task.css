@@ -76,6 +76,12 @@ img {
     border-radius: 10px;
 }
 
+.text:hover,
+.itemn:hover {
+    background-color: rgba(0, 115, 255, 0.534);
+    box-shadow: 2px 2px 2px 2px rgb(251, 237, 237);
+}
+
 .text p {
     margin-left: 60px;
 }
