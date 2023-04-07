@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -35,10 +35,11 @@ img {
     margin-top: 10px;
     margin-bottom: 20px;
     color: #15224c;
+    font-weight: 700;
 }
 
 .topContainer {
-    border: 2px solid #69B3FF;
+    border: 2px solid #57c7ec;
     transform: translateY(-115px);
     border-radius: 15px;
     margin-right: 20px;
@@ -68,6 +69,7 @@ img {
 }
 
 .text {
+    width: 200px;
     flex-basis: 400px;
     background-color: lightblue;
     height: 70px;
@@ -105,6 +107,13 @@ img {
     height: 50px;
 }
 
+.date img {
+    width: 16%;
+    height: 20px;
+    padding-right: 10px;
+    margin-left: 15px;
+}
+
 
 /* 
 .icon span {
@@ -130,6 +139,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 500;
 }
 
 .btnnn {
@@ -146,20 +156,28 @@ img {
 
 .boxn {
     display: flex;
-    width: 270px;
+    width: 300px;
     column-gap: 10px;
     align-items: center;
+    /* justify-content: space-between; */
+}
+
+.boxn div {
+    font-size: 16px;
 }
 
 .date {
     width: 200px;
     margin: auto;
-    transform: translateY(-137px);
+    transform: translateY(-136px);
     background-color: white;
     background-color: #15224C;
     border-radius: 10px;
     color: white;
-    padding: 10px;
+    padding: 8px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
     text-align: center;
 }
 
@@ -193,11 +211,17 @@ img {
 .div3p1 {
     font-size: 30px;
     padding: 2px;
+    margin-bottom: 2px;
+}
+
+.div3 p {
+    margin-top: 2px;
 }
 
 .div5 {
     margin: auto;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 @media screen and (max-width:600px) {
